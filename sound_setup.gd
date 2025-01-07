@@ -54,21 +54,21 @@ extends Node ;                                                                  
 ####################################################################################
 enum Sounds {                                                                     ##
 
-	# Your code goes here, read the example 'Enumerating Sounds' above for help.  ##
+	# Your code goes here, read the example 'Enumerating Sounds' above for help.
 
 } ;                                                                               ##
 ####################################################################################
 func stringify(sound : Sound.Sounds) -> String :                                  ##
 
-	var result : String ;                                                         ##
+	var result : String ;                                                     ##
 
-	# Your code goes here, read the example 'Stringifying Sounds' above for help. ##
+	# Your code goes here, read the example 'Stringifying Sounds' above for help.
 
-	return result ;                                                               ##
+	return result ;                                                           ##
 ####################################################################################
 @onready var stream : Array[Resource] = [                                         ##
 
-	# Your code goes here, read the example 'Preloading Sounds' above for help.   ##
+	# Your code goes here, read the example 'Preloading Sounds' above for help.
 
 ] ;                                                                               ##
 ####################################################################################
